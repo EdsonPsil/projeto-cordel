@@ -65,8 +65,10 @@ section.normal{
 }
 
 section.imagem{
-  background-color: rgba(0, 0, 0, 0.164);
+  background-color: rgba(0, 0, 0, 0.164); 
+  background-size: cover;
   color: white;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473); /*sombra da imagem*/
   
   
 }
@@ -75,6 +77,11 @@ section.imagem p{
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.315);
   padding:10px;
+  text-shadow: 2px 2px 0px rgb(0, 0, 0);/* sombra no texto*/
+}
+
+section p{
+  padding-bottom: 1em;
 }
 
 #joaninha{
@@ -82,12 +89,12 @@ section.imagem p{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right center;
-  background-size: cover;
+
 }
 
 #folhas{
   background:url(imagens/background002.jpg) left center no-repeat fixed ;
-  background-size: cover;
+ 
 }
 
 footer{
